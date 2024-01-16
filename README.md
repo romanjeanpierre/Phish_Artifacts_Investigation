@@ -16,7 +16,7 @@
     <li><b>Virus Total</b></li>
     <li><b>URL2PNG</b></li>
     <li><b>Wannabrowser</b></li>
-    <li><b>WHOis</b></li>
+    <li><b>WHOIS LOOKUP</b></li>
 </ul>
 
 <h3>Collecting Memory Dump using FTK Imager</h3>
