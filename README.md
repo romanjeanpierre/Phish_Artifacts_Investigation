@@ -19,8 +19,4 @@
     <li><b>WHOIS LOOKUP</b></li>
 </ul>
 
-<h3>Collecting Memory Dump using FTK Imager</h3>
-<br/>
-<p>Open FTK Imager: Go to File > Capture Memory > Select Destination Path > Capture Memory</p>
-<br/>
-<img src="https://imgur.com/guy3Nys.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<h3> Project in progress</h3>
