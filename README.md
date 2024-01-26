@@ -1,7 +1,7 @@
 <H1>Extracting & Investigating Phishing Email Artifacts</H1>
 
-<H2> Response Protocol to follow </H2>
-<p>Immediate response the steps the investigating analyst should take once they have identified a phishing email, from detection through to concluding their investigation report. </p>
+<H2> Response Protocol to follow in a real incident </H2>
+<p>Immediate response the investigating analyst should take once they have identified a phishing email, from detection through to concluding their investigation report. </p>
 The steps are:
 <br> </br>
 <li> Retrieve an original copy of the phishing email </li>
@@ -12,6 +12,7 @@ The steps are:
 <li> Complete the investigation report, documenting all of the above steps </li>
 </ul>
 
+<h3> More Details: </h3>
 
 <h3> 1) Retrieve an Original of the Suspicious Email: </h3> 
 <p> An original version of the email can be obtained via many methods, such as; through security technology on the email gateway or the gateway itself, pulling the email directly from the email solution, such as Microsoft Exchange servers, or having an employee forward the email to a security-owned mailbox. </p>
@@ -40,11 +41,11 @@ The steps are:
 <h3> 6) Complete Investigation Report: </h3>
 <p> The Investigation report will include notes about all of the steps you have completed during the immediate response process. This provides an audit trail to show that the email was identified and investigated, and defensive measures were taken to protect the organization from this attack. </p>
 
-<h2>Brief Description</h2>
-<p>.</p>
+<h2>Project Objective</h2>
+<p>
+  The primary goal of this project is to identify and categorize malicious emails. This involves a detailed process of extracting various web and file artifacts embedded within these emails. Each artifact will undergo a thorough analysis to assess its nature and potential impact. The project aims to establish a justification for the maliciousness of these artifacts, leading to informed decision-making regarding their handling and mitigation.
+</p>
 
-
-<h2>Project Walk-Through</h2>
 <br/>
 <p align="center">
     <img src="https://imgur.com/WcQc9JU.png" height="80%" width="80%" alt="Project Overview Image">
