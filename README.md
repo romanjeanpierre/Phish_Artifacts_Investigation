@@ -1,63 +1,70 @@
-<H1>Extracting & Investigating Phishing Email Artifacts</H1>
+<h1>Extracting & Investigating Phishing Email Artifacts</h1>
 
-<H2> Response Protocol to follow in a real incident </H2>
-<p>Immediate response the investigating analyst should take once they have identified a phishing email, from detection through to concluding their investigation report. </p>
-The steps are:
-<br> </br>
-<li> Retrieve an original copy of the phishing email </li>
-<li> Gather artifacts from the phishing email </li>
-<li> Inform the recipients that received the email </li>
-<li> Investigate malicious artifacts to collect indicators of compromise that can be blocked to protect the organization </li>
-<li> Take defensive measures </li>
-<li> Complete the investigation report, documenting all of the above steps </li>
-</ul>
+<h2>Response Protocol for Real Incident Handling</h2>
+<p>
+    This section outlines the immediate response steps an investigating analyst should take upon identifying a phishing email. It covers the entire process from detection to the completion of the investigation report.
+</p>
 
-<h3> More Details: </h3>
+<ol>
+    <li>Retrieve an original copy of the phishing email</li>
+    <li>Gather artifacts from the phishing email</li>
+    <li>Inform the recipients who received the email</li>
+    <li>Investigate malicious artifacts to collect indicators of compromise</li>
+    <li>Implement defensive measures</li>
+    <li>Complete the investigation report, documenting all the above steps</li>
+</ol>
 
-<h3> 1) Retrieve an Original of the Suspicious Email: </h3> 
-<p> An original version of the email can be obtained via many methods, such as; through security technology on the email gateway or the gateway itself, pulling the email directly from the email solution, such as Microsoft Exchange servers, or having an employee forward the email to a security-owned mailbox. </p>
- 
+<h3>Detailed Response Steps:</h3>
 
-<h3> 2) Gather Artifacts From the Original Email: </h3>
-<p> We have already covered the artifacts we need to collect, and why they’re important. These are used later in the investigation process to perform artifact analysis and take defensive measures.  </p>
+<h4>1) Retrieve an Original of the Suspicious Email:</h4>
+<p>
+    Obtain the original version of the email via methods such as security technology at the email gateway, direct extraction from email solutions like Microsoft Exchange, or by having an employee forward the email to a security-owned mailbox.
+</p>
 
- 
-<h3> 3) Inform Email Recipients: </h3>
-<p> A crucial part of the immediate response to a phishing attack is to notify any individuals who have received the email. This helps to reduce the chance of them opening and interacting with the email. </p>
-<p>Typically organizations will have an email template that they can send to recipients once they have been identified. The investigating analyst would check on the email gateway to see which mailboxes the phishing email has been delivered to, and then add the recipients into BCC of the email template, and include the following details: </p>
+<h4>2) Gather Artifacts From the Original Email:</h4>
+<p>
+    Collect important artifacts from the email for later analysis and defensive action.
+</p>
 
-<p> a) The date and time the email was sent (allows the recipients to find the email easier by looking at the times of emails that they have received) </p>
-<p> b) The subject line of the malicious email (allows the recipients to find the email easier by looking at the subject lines of emails that they have received) </p>
-<p> c) Clear instructions on what to do with the email (this will depend on how the organization deals with phishing emails. This could either be instructing the recipients to delete the email or forward it to a security-owned mailbox) </p>
-<p> d) Contact details for if the recipient is unsure what to do (typically a security-owned mailbox, so the user can get support from the security team) </p>
- 
+<h4>3) Inform Email Recipients:</h4>
+<p>
+    Notify individuals who have received the phishing email to reduce the risk of interaction with it. This includes sending an email template with specific details such as the time of the email, subject line, instructions on handling the email, and contact details for further assistance.
+</p>
 
-<h3> 4) Artifact Analysis and Investigation: </h3>
-<p> Investigate email, web, and file-based artifacts to collect more information and determine how malicious they are. Tools that should be used include enterprise-grade sandboxing, URL2PNG, VirusTotal, IPVoid, WannaBrowser, a virtual machine, and more. </p>
+<h4>4) Artifact Analysis and Investigation:</h4>
+<p>
+    Use tools like enterprise-grade sandboxing, URL2PNG, VirusTotal, IPVoid, WannaBrowser, and a virtual machine to investigate the email, web, and file-based artifacts.
+</p>
 
-<h3> 5) Take Defensive Measures: </h3>
-<p> Defensive measures are the actions taken by the security team to reduce the risk generated by the phishing attack. This potentially includes blocking email, web, and file-based artifacts. If a malicious email includes a URL that takes the user to a credential harvester, blocking this URL on a web proxy would prevent employees from connecting to the webpage, completely mitigating the risk of them entering their credentials.</p> 
+<h4>5) Take Defensive Measures:</h4>
+<p>
+    Implement actions to mitigate risks posed by the phishing attack, such as blocking malicious URLs on a web proxy.
+</p>
 
-<h3> 6) Complete Investigation Report: </h3>
-<p> The Investigation report will include notes about all of the steps you have completed during the immediate response process. This provides an audit trail to show that the email was identified and investigated, and defensive measures were taken to protect the organization from this attack. </p>
+<h4>6) Complete Investigation Report:</h4>
+<p>
+    Document all steps taken during the response process in an investigation report for audit purposes.
+</p>
 
 <h2>Project Objective</h2>
 <p>
-  The primary goal of this project is to identify and categorize malicious emails. This involves a detailed process of extracting various web and file artifacts embedded within these emails. Each artifact will undergo a thorough analysis to assess its nature and potential impact. The project aims to establish a justification for the maliciousness of these artifacts, leading to informed decision-making regarding their handling and mitigation.
+    The primary goal of this project is to identify and categorize malicious emails by extracting and analyzing embedded web and file artifacts. This thorough process aims to establish a justification for the malicious nature of these artifacts, leading to informed decisions for their handling and mitigation.
 </p>
 
-<br/>
 <p align="center">
     <img src="https://imgur.com/WcQc9JU.png" height="80%" width="80%" alt="Project Overview Image">
 </p>
-<br/>
+
 <h2>Utilities Used</h2>
 <ul>
     <li><b>PowerShell</b></li>
-    <li><b>Virus Total</b></li>
+    <li><b>VirusTotal</b></li>
     <li><b>URL2PNG</b></li>
     <li><b>Wannabrowser</b></li>
     <li><b>WHOIS LOOKUP</b></li>
 </ul>
 
-<h3> Project in progress</h3>
+<h3>Project in Progress</h3>
+
+</body>
+</html>
