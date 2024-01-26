@@ -33,7 +33,7 @@
 
 <h4>4) Artifact Analysis and Investigation:</h4>
 <p>
-    Use tools like enterprise-grade sandboxing, URL2PNG, VirusTotal, IPVoid, WannaBrowser, and a virtual machine to investigate the email, web, and file-based artifacts.
+    Use tools like enterprise-grade sandboxing, URL2PNG, VirusTotal, IPVoid, WannaBrowser, and a virtual machine to investigate email, web, and file-based artifacts.
 </p>
 
 <h4>5) Take Defensive Measures:</h4>
@@ -64,7 +64,55 @@
     <li><b>WHOIS LOOKUP</b></li>
 </ul>
 
-<h3>Project in Progress</h3>
+<h2>Project Walk Through</h2>
+<h3>Email Artifacts Analysis</h3>
+<ul>
+    <li><strong>Email Appearance and Intent</strong>: Describe how the email looks and its apparent objective.</li>
+    <li><strong>Sender Information</strong>:
+        <ul>
+            <li>Sending Address: Identify the email's sending address.</li>
+            <li>Subject Line: Note the email's subject line.</li>
+            <li>Recipients: List who the email was sent to.</li>
+            <li>Reply-To Address: Specify the reply-to address, if present.</li>
+            <li>Timestamp: Record the date and time the email was sent, converted to UTC.</li>
+            <li>Sending Server IP: Identify the IP address of the sending server.</li>
+            <li>Reverse DNS of IP: Provide the reverse DNS result of the sending server's IP.</li>
+        </ul>
+    </li>
+</ul>
 
-</body>
-</html>
+<h3>File Artifacts Analysis</h3>
+<ul>
+    <li><strong>File Details</strong>:
+        <ul>
+            <li>File Name and Type: Specify the full file name, including its file type.</li>
+            <li>SHA256 Hash: Note the SHA256 hash value of the file.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Web Artifacts Analysis</h3>
+<ul>
+    <li><strong>Web Elements</strong>:
+        <ul>
+            <li>Full URL: Detail the full URL found in the email.</li>
+            <li>Root Domain: Identify the root domain of the URL.</li>
+            <li>Analysis Conducted: Specify which analyses were performed (e.g., URLZPNG, WannaBrowser, VirusTotal, URLScan.io).</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Defensive Measures</h3>
+<ul>
+    <li><strong>Email Artifact Mitigation</strong>: Detail the defensive measures you propose for handling email artifacts.</li>
+    <li><strong>File Artifact Mitigation</strong>: Describe the defensive measures you suggest for dealing with file artifacts.</li>
+</ul>
+
+<h3> Analysis on Credential Harvester email example </h3>
+
+
+
+
+
+
+
