@@ -109,6 +109,17 @@
 </ul>
 
 <h3> Analysis on Credential Harvester email example </h3>
+<img src="https://imgur.com/LuF4xmI.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<h4> First Impressions: </h4>
+<p> - ‘auto-confirm.info-amazon.co.uk' (where info-amazon.co.uk is the domain, not amazon.co.uk), but we can see it’s actually coming from QPE77756@mun.ca - this definitely isn't Amazon. </p>
+<p> - Formating/styling is inconsistent - Varying fonts </p>
+<p> - Email is addressed to generic recipient 'Amazon User' </p>
+<p> - Has an obvious call to action button 'Help Page - Refund Form'</p>
+
+<h4> Further Analysis on Credential Harvester </h4>
+<p> Drag & Drop .eml file to Sublime Text for detailed artifact extraction </p>
+<h5> What is the sending address: </h5>
+
 
 
 
