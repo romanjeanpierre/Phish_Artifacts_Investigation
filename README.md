@@ -1,4 +1,4 @@
-<h1>Extracting & Investigating Phishing Email Artifacts</h1>
+<h1>Phishing Email Analysis & Response Framework</h1>
 
 <h2>Response Protocol for Real Incident Handling</h2>
 <p>
