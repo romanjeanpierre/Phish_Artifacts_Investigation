@@ -135,5 +135,13 @@
 <img src="https://imgur.com/3OOXafk.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 <p> Snapshot image of the landing page appears to be broken</p>
 
+<h3> Suggested Defensive Measures </h3>
+As the sender is using a domain address, the most appropriate action would be to block this specific mailbox to prevent any more incoming malicious emails from this sender.
+
+Requesting an email gateway block for the sending address “QPE77756@mun.ca" and sender IP address: 68[.]114[.]190[.]29
+
+The domain has been recognized as malicious, and there is no business justification for any employees needing to access this site. As it has a malicious reputation on VirusTotal, and analysis has shown that it is hosting a credential harvester, the entire domain can be blocked on the web proxy, preventing employees from connecting to the site. This will also make future phishing attacks using this same domain ineffective.
+
+Requesting a web proxy block for the domain “hxxp[://]id820update[.]refundsys59[.]co[.]uk/invoice103amz/index[.]php?email=jack[.]tractive@abcindustries[.]co[.]uk“.
 
 
