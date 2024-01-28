@@ -110,21 +110,30 @@
 
 <h3> Analysis on Credential Harvester email example </h3>
 <img src="https://imgur.com/LuF4xmI.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
-<h4> First Impressions: </h4>
-<p> - ‘auto-confirm.info-amazon.co.uk' (where info-amazon.co.uk is the domain, not amazon.co.uk), but we can see it’s actually coming from QPE77756@mun.ca - this definitely isn't Amazon. </p>
+<h3> First Impressions: </h3>
+<p> - ‘auto-confirm.info-amazon.co.uk' (where info-amazon.co.uk is the domain, not amazon.co.uk), but we can see it’s coming from QPE77756@mun.ca - this definitely isn't Amazon. </p>
 <p> - Formating/styling is inconsistent - Varying fonts </p>
 <p> - Email is addressed to generic recipient 'Amazon User' </p>
 <p> - Has an obvious call to action button 'Help Page - Refund Form'</p>
 
-<h4> Further Analysis on Credential Harvester </h4>
+<h3> Further Analysis on Credential Harvester: </h3>
 <p> Drag & Drop .eml file to Sublime Text for detailed artifact extraction </p>
-<h5> What is the sending address: </h5>
+<h3> Identify Mail Artifacts </h3>
+<p> (CTRL + F) 'from' string  to find the sending address containing the <> symbol</p>
+<p> Identify Sending address, Subject Line, Recipients, Reply-to address, Date, Sending Server IP Address </p>
+<img src="https://imgur.com/nbKjVBR.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<img src="https://imgur.com/HiBtREj.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 
+<h3> Reverse DNS Search </h3>
+<p> Input sending server IP address to whois.domaintools.com, no hostname found, states that the IP is owned by ‘United States Ashburn Charter Communications’. It seems that an individual company no longer owns this IP, so we won't be able to get the hostname from here. While IP ownership can change, we'll always have the original information preserved within the email file. </p>
+<img src="https://imgur.com/syeKVMm.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
 
-
-
-
-
+<h3> Analyze Web Artifacts </h3>
+<p> Right-click and copy the hyperlink, input results to VirusTotal and URL2PNG </p>
+<img src="https://imgur.com/U6dSmf9.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> Results show that security vendors have flagged the link and may potentially be malicious. </p>
+<img src="https://imgur.com/3OOXafk.png" height="80%" width="80%" alt="FTK Imager Memory Capture">
+<p> Snapshot image of the landing page appears to be broken</p>
 
 
 
